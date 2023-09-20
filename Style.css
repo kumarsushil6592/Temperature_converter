@@ -1,0 +1,52 @@
+*{
+    color: white !important;
+}
+body{
+    background-color: rgb(27, 31, 42);
+    color: white;
+
+}
+h1{
+    align-self: center;
+    text-decoration: underline;
+}
+#box{
+    background-color: rgb(2, 59, 59);
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+    opacity: 80%;
+    box-shadow: 10px 10px  rgb(25, 25, 25);
+}
+#head{
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding-top: 3rem;
+    font-size: medium;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+}
+input{
+    width: 6rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+    color: black !important;
+}
+select{
+background-color: transparent;
+color: black;
+height: 2rem;
+width: 6rem;
+}
+option{
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}
