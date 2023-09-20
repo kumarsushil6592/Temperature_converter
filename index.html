@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body onload="heading()"><center>
+    <h1>Temperature Converter</h1>
+<br><br>
+<div id="box">
+    <h2 id="head"></h2>
+    <select id="inputType" onchange="heading()">
+        <option value="cel">Celcius</option>
+        <option value="fer">Ferhenheit</option>
+        <option value="kel">Kelvin</option>
+    </select>
+    <input type="number" id="input" required oninput="bgd()">
+    <br>
+    <select id="outputType" onchange="heading()">
+        <option value="fer">Ferhenheit</option>
+        <option value="cel">Celcius</option>
+        <option value="kel">Kelvin</option>
+    </select>
+    <input type="number" id="output" readonly>
+    <br>
+    <input type="button" id="btn" value="Convert" onclick="convert()">
+</div>
+</center>
+</body>
+</html>
